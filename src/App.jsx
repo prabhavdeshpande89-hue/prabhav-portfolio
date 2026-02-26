@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -16,15 +16,20 @@ function App() {
       <Navbar />
 
       <Routes>
+        {/* Redirect root to home */}
+        <Route path="/" element={<Navigate to="/home" replace />} />
+
+        {/* Home Page */}
         <Route
-          path="/"
+          path="/home"
           element={
             <>
               <Hero />
-              <Footer /> {/* Footer only here */}
+              <Footer />
             </>
           }
         />
+
         <Route path="/projects" element={<Projects />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/skills" element={<Skills />} />
