@@ -214,6 +214,60 @@ function Projects() {
           </div>
         </motion.div>
 
+        {/* PROJECT 8 */}
+<motion.div
+  whileHover={{ y: -10, boxShadow: hoverGlow }}
+  style={card}
+>
+  <div style={imageWrapper}>
+    <img
+      src={projectImage8}
+      alt="Personal Portfolio Website Preview"
+      style={image}
+    />
+  </div>
+
+  <h3 style={projectTitle}>
+    Personal Portfolio Website
+  </h3>
+
+  <p style={desc}>
+    Modern, fully responsive portfolio website built with React.js and
+    Framer Motion, featuring smooth animations, reusable components,
+    and optimized GitHub Pages deployment. Designed with clean UI/UX
+    for seamless desktop and mobile experience.
+  </p>
+
+  <div style={techRow}>
+    <span style={tech}>React.js</span>
+    <span style={tech}>JavaScript</span>
+    <span style={tech}>Framer Motion</span>
+    <span style={tech}>CSS</span>
+    <span style={tech}>GitHub Pages</span>
+  </div>
+
+  <div style={btnRow}>
+    <a
+      href="https://github.com/prabhavdeshpande89-hue/prabhav-portfolio"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={codeBtn}
+    >
+      <FaGithub size={16} style={{ marginRight: 8 }} />
+      Code
+    </a>
+
+    <a
+      href="https://prabhavdeshpande89-hue.github.io/prabhav-portfolio"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={liveBtn}
+    >
+      <FiExternalLink size={16} style={{ marginRight: 8 }} />
+      Live
+    </a>
+  </div>
+</motion.div>
       </div>
     </section>
   );
