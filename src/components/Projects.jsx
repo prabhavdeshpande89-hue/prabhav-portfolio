@@ -8,6 +8,7 @@ import projectImage4 from "../assets/P_4.png";
 import projectImage5 from "../assets/P_5.png";
 import projectImage6 from "../assets/P_6.png";
 import projectImage7 from "../assets/P_7.png";
+import projectImage8 from "../assets/P_8.png";
 
 function Projects() {
   return (
