@@ -9,6 +9,7 @@ import projectImage5 from "../assets/P_5.png";
 import projectImage6 from "../assets/P_6.png";
 import projectImage7 from "../assets/P_7.png";
 import projectImage8 from "../assets/P_8.png";
+import projectImage9 from "../assets/P_9.png";
 
 function Projects() {
   return (
@@ -269,6 +270,64 @@ function Projects() {
     </a>
   </div>
 </motion.div>
+
+{/* PROJECT 9 */}
+<motion.div
+  whileHover={{ y: -10, boxShadow: hoverGlow }}
+  style={card}
+>
+  <div style={imageWrapper}>
+    <img
+      src={projectImage9}
+      alt="Universal File to PDF Converter Preview"
+      style={image}
+    />
+  </div>
+
+  <h3 style={projectTitle}>
+    Universal File to PDF Converter
+  </h3>
+
+  <p style={desc}>
+    Full-stack web application that converts Office documents into PDF
+    instantly in the browser. Built with React frontend and Node.js backend,
+    using LibreOffice for server-side document conversion and deployed on
+    Vercel and Render.
+  </p>
+
+  <div style={techRow}>
+    <span style={tech}>React.js</span>
+    <span style={tech}>Node.js</span>
+    <span style={tech}>Express.js</span>
+    <span style={tech}>LibreOffice</span>
+    <span style={tech}>Vercel</span>
+    <span style={tech}>Render</span>
+  </div>
+
+  <div style={btnRow}>
+    <a
+      href="https://github.com/prabhavdeshpande89-hue/pdf-converter"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={codeBtn}
+    >
+      <FaGithub size={16} style={{ marginRight: 8 }} />
+      Code
+    </a>
+
+    <a
+      href="https://pdf-converter-rho.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={liveBtn}
+    >
+      <FiExternalLink size={16} style={{ marginRight: 8 }} />
+      Live
+    </a>
+  </div>
+</motion.div>
+
+
       </div>
     </section>
   );
