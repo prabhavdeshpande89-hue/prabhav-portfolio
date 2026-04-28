@@ -4,7 +4,7 @@ function Navbar() {
   const location = useLocation();
 
   const menuItems = [
-    { name: "Home", path: "/" },
+    { name: "Home", path: "/home" }, // 🔥 important
     { name: "Projects", path: "/projects" },
     { name: "Gallery", path: "/gallery" },
     { name: "Skills", path: "/skills" },
@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <nav style={navStyle}>
-      {/* LEFT: Logo + Name */}
+      {/* LEFT */}
       <div style={leftStyle}>
         <div style={logoStyle}>PD</div>
         <div>
@@ -25,7 +25,7 @@ function Navbar() {
         </div>
       </div>
 
-      {/* CENTER: Menu */}
+      {/* CENTER */}
       <div style={centerStyle}>
         {menuItems.map((item) => {
           const active = location.pathname === item.path;
@@ -46,7 +46,6 @@ function Navbar() {
         })}
       </div>
 
-      {/* RIGHT: Spacer (keeps center aligned) */}
       <div style={{ width: "260px" }} />
     </nav>
   );
@@ -101,6 +100,6 @@ const centerStyle = {
 const linkStyle = {
   textDecoration: "none",
   fontSize: "14px",
-  fontWeight: "700", // ✅ BOLD
+  fontWeight: "700",
   paddingBottom: "4px",
 };
