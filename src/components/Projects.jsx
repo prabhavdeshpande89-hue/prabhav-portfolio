@@ -341,7 +341,7 @@ const wrapper = {
   padding: "100px 10%",
   color: "#e5e7eb",
   position: "relative",
-  overflow: "hidden",
+  overflow: "visible",
 };
 
 const bgGlow = {
