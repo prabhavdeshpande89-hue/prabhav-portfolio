@@ -72,7 +72,7 @@ export default function Resume() {
 
   // ✅ Robust base path handling
   const base = import.meta.env.BASE_URL || "/";
-  const resumePath = `${base}assets/Prabhav_Deshpande_Resume_V2.pdf?v=2`;
+  const resumePath = `${base}assets/Prabhav_Deshpande_Resume_2026.pdf?v=3`;
 
   return (
     <section style={styles.page}>
