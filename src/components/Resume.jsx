@@ -70,9 +70,9 @@ export default function Resume() {
     },
   };
 
-  // ✅ Works both locally and on GitHub Pages
-  const base = import.meta.env.BASE_URL;
-  const resumePath = `${base}assets/Prabhav_Deshpande_Resume_V2.pdf`;
+  // ✅ Robust base path handling
+  const base = import.meta.env.BASE_URL || "/";
+  const resumePath = `${base}assets/Prabhav_Deshpande_Resume_V2.pdf?v=2`;
 
   return (
     <section style={styles.page}>
