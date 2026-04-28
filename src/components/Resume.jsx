@@ -1,4 +1,4 @@
-import resumePDF from "../assets/Prabhav_Deshpande_Resume.pdf";
+import resumePDF from "../assets/Prabhav_Deshpande_Resume_V2.pdf";
 
 export default function Resume() {
   const styles = {
