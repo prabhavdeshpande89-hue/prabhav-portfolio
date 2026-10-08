@@ -365,7 +365,7 @@ function Projects() {
 
           <div style={btnRow}>
             <a
-              href="https://github.com/prabhavdeshpande89-hue/AI-Video-Notes-Extractor"
+              href="https://prabhavdeshpande89-hue.github.io/prabhav-portfolio/home"
               target="_blank"
               rel="noopener noreferrer"
               style={codeBtn}
@@ -375,7 +375,7 @@ function Projects() {
             </a>
 
             <a
-              href="https://prabhavdeshpande89-hue.github.io/prabhav-portfolio/home"
+              href="https://ai-video-notes-extractor.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               style={liveBtn}
