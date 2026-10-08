@@ -84,7 +84,7 @@ import img75 from "../assets/gallery/Wildlife/2.jpg";
 import img76 from "../assets/gallery/Wildlife/3.jpg";
 import img77 from "../assets/gallery/Wildlife/4.jpg";
 import img78 from "../assets/gallery/Wildlife/5.jpg";
-import img79 from "../assets/gallery/Wildlife/6.jpg";
+import img79 from "../assets/gallery/Wildlife/6.JPG";
 
 
 import { useState, useRef, useEffect } from "react";
