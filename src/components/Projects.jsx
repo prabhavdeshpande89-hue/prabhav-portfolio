@@ -365,7 +365,7 @@ function Projects() {
 
           <div style={btnRow}>
             <a
-              href="https://prabhavdeshpande89-hue.github.io/prabhav-portfolio/home"
+              href="https://github.com/prabhavdeshpande89-hue/AI-Video-Notes-Extractor"
               target="_blank"
               rel="noopener noreferrer"
               style={codeBtn}
