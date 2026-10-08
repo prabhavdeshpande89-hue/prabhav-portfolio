@@ -10,6 +10,7 @@ import projectImage6 from "../assets/P_6.png";
 import projectImage7 from "../assets/P_7.png";
 import projectImage8 from "../assets/P_8.png";
 import projectImage9 from "../assets/P_9.png";
+import projectImage10 from "../assets/P_10.png";
 
 function Projects() {
   return (
@@ -75,8 +76,8 @@ function Projects() {
             <a href="https://github.com/prabhavdeshpande89-hue/Temple-and-Monument-Detection-Using-YOLOv8" target="_blank" rel="noopener noreferrer" style={codeBtn}>
               <FaGithub size={16} style={{ marginRight: 8 }} /> Code
             </a>
-            <span style={{ ...liveBtn, opacity: 0.5, cursor: "not-allowed"}}>
-              <FiExternalLink size={16} style={{ marginRight: 8}} /> Live
+            <span style={{ ...liveBtn, opacity: 0.5, cursor: "not-allowed" }}>
+              <FiExternalLink size={16} style={{ marginRight: 8 }} /> Live
             </span>
           </div>
         </motion.div>
@@ -84,7 +85,7 @@ function Projects() {
         {/* PROJECT 3 */}
         <motion.div whileHover={{ y: -10, boxShadow: hoverGlow }} style={card}>
           <div style={imageWrapper}>
-            <img src= {projectImage3} alt="" style={image} />
+            <img src={projectImage3} alt="" style={image} />
           </div>
           <h3 style={projectTitle}>Impact of Landscape Dynamics on Land Surface Temperature</h3>
           <p style={desc}>
@@ -111,7 +112,7 @@ function Projects() {
         {/* PROJECT 4 */}
         <motion.div whileHover={{ y: -10, boxShadow: hoverGlow }} style={card}>
           <div style={imageWrapper}>
-            <img src= {projectImage4} alt="" style={image} />
+            <img src={projectImage4} alt="" style={image} />
           </div>
           <h3 style={projectTitle}>Telecom Churn Analysis</h3>
           <p style={desc}>
@@ -138,7 +139,7 @@ function Projects() {
         {/* PROJECT 5 */}
         <motion.div whileHover={{ y: -10, boxShadow: hoverGlow }} style={card}>
           <div style={imageWrapper}>
-            <img src= {projectImage5} alt="" style={image} />
+            <img src={projectImage5} alt="" style={image} />
           </div>
           <h3 style={projectTitle}>Cloud Based RBAC System</h3>
           <p style={desc}>
@@ -165,7 +166,7 @@ function Projects() {
         {/* PROJECT 6 */}
         <motion.div whileHover={{ y: -10, boxShadow: hoverGlow }} style={card}>
           <div style={imageWrapper}>
-            <img src= {projectImage6} alt="" style={image} />
+            <img src={projectImage6} alt="" style={image} />
           </div>
           <h3 style={projectTitle}>Real-Time Weather Analytics (Bangalore)</h3>
           <p style={desc}>
@@ -183,8 +184,8 @@ function Projects() {
             <a href="https://github.com/prabhavdeshpande89-hue/Real-time-weather-analytics-Banglore-" target="_blank" rel="noopener noreferrer" style={codeBtn}>
               <FaGithub size={16} style={{ marginRight: 8 }} /> Code
             </a>
-            <span style={{ ...liveBtn, opacity: 0.5, cursor: "not-allowed"}}>
-              <FiExternalLink size={16} style={{ marginRight: 8}} /> Live
+            <span style={{ ...liveBtn, opacity: 0.5, cursor: "not-allowed" }}>
+              <FiExternalLink size={16} style={{ marginRight: 8 }} /> Live
             </span>
           </div>
         </motion.div>
@@ -192,7 +193,7 @@ function Projects() {
         {/* PROJECT 7 */}
         <motion.div whileHover={{ y: -10, boxShadow: hoverGlow }} style={card}>
           <div style={imageWrapper}>
-            <img src= {projectImage7} alt="" style={image} />
+            <img src={projectImage7} alt="" style={image} />
           </div>
           <h3 style={projectTitle}>Automated Web Testing using Selenium</h3>
           <p style={desc}>
@@ -217,115 +218,173 @@ function Projects() {
         </motion.div>
 
         {/* PROJECT 8 */}
-<motion.div
-  whileHover={{ y: -10, boxShadow: hoverGlow }}
-  style={card}
->
-  <div style={imageWrapper}>
-    <img
-      src={projectImage8}
-      alt="Personal Portfolio Website Preview"
-      style={image}
-    />
-  </div>
+        <motion.div
+          whileHover={{ y: -10, boxShadow: hoverGlow }}
+          style={card}
+        >
+          <div style={imageWrapper}>
+            <img
+              src={projectImage8}
+              alt="Personal Portfolio Website Preview"
+              style={image}
+            />
+          </div>
 
-  <h3 style={projectTitle}>
-    Personal Portfolio Website
-  </h3>
+          <h3 style={projectTitle}>
+            Personal Portfolio Website
+          </h3>
 
-  <p style={desc}>
-    Modern, fully responsive portfolio website built with React.js and
-    Framer Motion, featuring smooth animations, reusable components,
-    and optimized GitHub Pages deployment. Designed with clean UI/UX
-    for seamless desktop and mobile experience.
-  </p>
+          <p style={desc}>
+            Modern, fully responsive portfolio website built with React.js and
+            Framer Motion, featuring smooth animations, reusable components,
+            and optimized GitHub Pages deployment. Designed with clean UI/UX
+            for seamless desktop and mobile experience.
+          </p>
 
-  <div style={techRow}>
-    <span style={tech}>React.js</span>
-    <span style={tech}>JavaScript</span>
-    <span style={tech}>Framer Motion</span>
-    <span style={tech}>CSS</span>
-    <span style={tech}>GitHub Pages</span>
-  </div>
+          <div style={techRow}>
+            <span style={tech}>React.js</span>
+            <span style={tech}>JavaScript</span>
+            <span style={tech}>Framer Motion</span>
+            <span style={tech}>CSS</span>
+            <span style={tech}>GitHub Pages</span>
+          </div>
 
-  <div style={btnRow}>
-    <a
-      href="https://github.com/prabhavdeshpande89-hue/prabhav-portfolio"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={codeBtn}
-    >
-      <FaGithub size={16} style={{ marginRight: 8 }} />
-      Code
-    </a>
+          <div style={btnRow}>
+            <a
+              href="https://github.com/prabhavdeshpande89-hue/prabhav-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={codeBtn}
+            >
+              <FaGithub size={16} style={{ marginRight: 8 }} />
+              Code
+            </a>
 
-    <a
-      href="https://prabhavdeshpande89-hue.github.io/prabhav-portfolio"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={liveBtn}
-    >
-      <FiExternalLink size={16} style={{ marginRight: 8 }} />
-      Live
-    </a>
-  </div>
-</motion.div>
+            <a
+              href="https://prabhavdeshpande89-hue.github.io/prabhav-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={liveBtn}
+            >
+              <FiExternalLink size={16} style={{ marginRight: 8 }} />
+              Live
+            </a>
+          </div>
+        </motion.div>
 
-{/* PROJECT 9 */}
-<motion.div
-  whileHover={{ y: -10, boxShadow: hoverGlow }}
-  style={card}
->
-  <div style={imageWrapper}>
-    <img
-      src={projectImage9}
-      alt="Universal File to PDF Converter Preview"
-      style={image}
-    />
-  </div>
+        {/* PROJECT 9 */}
+        <motion.div
+          whileHover={{ y: -10, boxShadow: hoverGlow }}
+          style={card}
+        >
+          <div style={imageWrapper}>
+            <img
+              src={projectImage9}
+              alt="Universal File to PDF Converter Preview"
+              style={image}
+            />
+          </div>
 
-  <h3 style={projectTitle}>
-    Universal File to PDF Converter
-  </h3>
+          <h3 style={projectTitle}>
+            Universal File to PDF Converter
+          </h3>
 
-  <p style={desc}>
-    Full-stack web application that converts Office documents into PDF
-    instantly in the browser. Built with React frontend and Node.js backend,
-    using LibreOffice for server-side document conversion and deployed on
-    Vercel and Render.
-  </p>
+          <p style={desc}>
+            Full-stack web application that converts Office documents into PDF
+            instantly in the browser. Built with React frontend and Node.js backend,
+            using LibreOffice for server-side document conversion and deployed on
+            Vercel and Render.
+          </p>
 
-  <div style={techRow}>
-    <span style={tech}>React.js</span>
-    <span style={tech}>Node.js</span>
-    <span style={tech}>Express.js</span>
-    <span style={tech}>LibreOffice</span>
-    <span style={tech}>Vercel</span>
-    <span style={tech}>Render</span>
-  </div>
+          <div style={techRow}>
+            <span style={tech}>React.js</span>
+            <span style={tech}>Node.js</span>
+            <span style={tech}>Express.js</span>
+            <span style={tech}>LibreOffice</span>
+            <span style={tech}>Vercel</span>
+            <span style={tech}>Render</span>
+          </div>
 
-  <div style={btnRow}>
-    <a
-      href="https://github.com/prabhavdeshpande89-hue/pdf-converter"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={codeBtn}
-    >
-      <FaGithub size={16} style={{ marginRight: 8 }} />
-      Code
-    </a>
+          <div style={btnRow}>
+            <a
+              href="https://github.com/prabhavdeshpande89-hue/pdf-converter"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={codeBtn}
+            >
+              <FaGithub size={16} style={{ marginRight: 8 }} />
+              Code
+            </a>
 
-    <a
-      href="https://pdf-converter-rho.vercel.app"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={liveBtn}
-    >
-      <FiExternalLink size={16} style={{ marginRight: 8 }} />
-      Live
-    </a>
-  </div>
-</motion.div>
+            <a
+              href="https://pdf-converter-rho.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={liveBtn}
+            >
+              <FiExternalLink size={16} style={{ marginRight: 8 }} />
+              Live
+            </a>
+          </div>
+        </motion.div>
+
+        {/* PROJECT 10 */}
+        <motion.div
+          whileHover={{ y: -10, boxShadow: hoverGlow }}
+          style={card}
+        >
+          <div style={imageWrapper}>
+            <img
+              src={projectImage10}
+              alt="VideoNote AI Project Preview"
+              style={image}
+            />
+          </div>
+
+          <h3 style={projectTitle}>
+            VideoNote AI
+          </h3>
+
+          <p style={desc}>
+            AI-powered web application that converts YouTube videos into
+            transcripts and structured notes, making long-form video content
+            easier to understand and review.
+          </p>
+
+          <div style={techRow}>
+            <span style={tech}>React</span>
+            <span style={tech}>TypeScript</span>
+            <span style={tech}>FastAPI</span>
+            <span style={tech}>MongoDB</span>
+            <span style={tech}>OpenAI Whisper</span>
+            <span style={tech}>OpenRouter</span>
+            <span style={tech}>yt-dlp</span>
+            <span style={tech}>FFmpeg</span>
+            <span style={tech}>JWT</span>
+          </div>
+
+          <div style={btnRow}>
+            <a
+              href="https://github.com/prabhavdeshpande89-hue/AI-Video-Notes-Extractor"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={codeBtn}
+            >
+              <FaGithub size={16} style={{ marginRight: 8 }} />
+              Code
+            </a>
+
+            <a
+              href="https://prabhavdeshpande89-hue.github.io/prabhav-portfolio/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={liveBtn}
+            >
+              <FiExternalLink size={16} style={{ marginRight: 8 }} />
+              Live
+            </a>
+          </div>
+        </motion.div>
 
 
       </div>
